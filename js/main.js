@@ -10,11 +10,11 @@ function getRandomIntInclusive(minValue, maxValue) {
   minValue = Math.ceil(minValue);
   maxValue = Math.floor(maxValue);
   return Math.floor(Math.random() * (maxValue - minValue + 1)) + minValue;
-} getRandomIntInclusive(1, 3)
+} getRandomIntInclusive(1, 3);
 
 /*
   Описание функции: Функция для проверки максимальной длины строки
 */
 function isMaxLengthString(inputString, maxLength) {
   return inputString.length <= maxLength;
-} isMaxLengthString('inputString', 10)
+} isMaxLengthString('inputString', 10);
